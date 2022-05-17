@@ -4,6 +4,7 @@ import styled from "styled-components";
 import AuthLayout from "../components/auth/AuthLayout";
 import BottomBox from "../components/auth/BottomBox";
 import Button from "../components/auth/Button";
+import PageTitle from "../components/PageTitle";
 import FormBox from "../components/auth/FormBox";
 import Input from "../components/auth/Input";
 import { FatLink } from "../components/shared";
@@ -24,6 +25,7 @@ const Subtitle = styled(FatLink)`
 function SignUp() {
   return (
     <AuthLayout>
+      <PageTitle title="Sign up" />
       <FormBox>
         <HeaderContainer>
           <FontAwesomeIcon icon={faInstagram} size="3x" />
