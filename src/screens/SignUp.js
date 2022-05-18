@@ -4,9 +4,9 @@ import styled from "styled-components";
 import AuthLayout from "../components/auth/AuthLayout";
 import BottomBox from "../components/auth/BottomBox";
 import Button from "../components/auth/Button";
-import PageTitle from "../components/PageTitle";
 import FormBox from "../components/auth/FormBox";
 import Input from "../components/auth/Input";
+import PageTitle from "../components/PageTitle";
 import { FatLink } from "../components/shared";
 import routes from "../routes";
 
@@ -22,7 +22,7 @@ const Subtitle = styled(FatLink)`
   margin-top: 10px;
 `;
 
-function SignUp() {
+function SingUp() {
   return (
     <AuthLayout>
       <PageTitle title="Sign up" />
@@ -45,4 +45,4 @@ function SignUp() {
     </AuthLayout>
   );
 }
-export default SignUp;
+export default SingUp;
