@@ -8,7 +8,6 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme, GlobalStyles, lightTheme } from "./styles";
 import SignUp from "./screens/SignUp";
 import routes from "./routes";
-import Header from "./components/Header";
 import Layout from "./components/Layout";
 import { HelmetProvider } from "react-helmet-async";
 
